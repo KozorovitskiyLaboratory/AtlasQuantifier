@@ -1,7 +1,7 @@
 # AtlasQuantifier
-Code for quantifying projections throughout the brain against coronal Allen Brain Atlas regions.
+Code for quantifying projections throughout the brain against coronal Allen Brain Atlas regions. Please cite https://www.biorxiv.org/content/10.1101/2021.08.05.455317v1 or published manuscript.
 
-This code was developed using tiffs converted from .vsi tile-scan images. These tiffs are of a single fluorescent channel containing anterograde projection signal.
+This code was developed using tiffs converted from .vsi tile-scan images. These tiffs are of a single fluorescent channel containing anterograde projection signal. It is not designed to find or quantify cell bodies.
 
 To perform whole brain mapping, perform the following steps. 
 1) Obtain the P56_mouse_annotation 'annotation.raw' file encoding the Allen Brain Atlas. Place the file in the matlab folder/directory. It may be necessary to add it to the path. Unzip the Atlas files for subsequent registration into a file folder location of your choosing. This step should only need to be performed once. 
