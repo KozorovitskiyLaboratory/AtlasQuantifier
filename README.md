@@ -4,7 +4,7 @@ Code for quantifying projections throughout the brain against coronal Allen Brai
 This code was developed using tiffs converted from .vsi tile-scan images. These tiffs are of a single fluorescent channel containing anterograde projection signal.
 
 To perform whole brain mapping, perform the following steps. 
-1) Obtain the P56_mouse_annotation 'annotation.raw' file encoding the Allen Brain Atlas. Place the file in the matlab folder/directory. It may be necessary to add it to the path. This should only need to be performed once.
+1) Obtain the P56_mouse_annotation 'annotation.raw' file encoding the Allen Brain Atlas. Place the file in the matlab folder/directory. It may be necessary to add it to the path. Unzip the Atlas files for subsequent registration into a file folder location of your choosing. This step should only need to be performed once. 
 2) Manually align atlas against slices, recording parameters in the attached spreadsheet.
   a. Pick the atlas slice that looks the most like your brain section/slice. Add this value to the 7th column.
   b. Import the image of your brain section/slice using link and blocky options into Inkscape or similar. Put it in layer   1 and lock it
